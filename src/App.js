@@ -5,6 +5,7 @@ import Hero from './Hero';
 import Want from './Want';
 import Obr from './Obr';
 import Obr2 from './Obr2';
+import Primers from './Primers';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Want />
       <Obr />
       <Obr2 />
+      <Primers />
     </div>  
   );
 }
