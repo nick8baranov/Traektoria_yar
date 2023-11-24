@@ -40,9 +40,9 @@ const Primers = () => {
       </div>
       <div id='points_glav'>
         <div id='points'>
-          <div id='point1'></div>
-          <div id='point2'></div>
-          <div id='point3'></div>
+          <button id='point1'> </button>
+          <button id='point2'> </button>
+          <button id='point3'> </button>
         </div>
       </div>
       <div id='row_glav'>
