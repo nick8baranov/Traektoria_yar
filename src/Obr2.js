@@ -3,7 +3,7 @@ import card1 from './images/card1.jpg';
 import card2 from './images/card2.jpg';
 import card3 from './images/card3.jpg';
 import {Button} from 'react-bootstrap';
-import { motion } from 'framer-motion';
+import {motion} from 'framer-motion';
 
 const Obr2 = () => {
   const [hoverState, sethover] = React.useState(false);
@@ -16,7 +16,7 @@ const Obr2 = () => {
       </h1>
       <div id="Obr2_cards">
         <motion.div id="Obr2_card_1"
-        onHoverStart={() => {
+        onHoverStart={() =>{
           sethover(hoverState => true);
         }}
         onHoverEnd={() => {
@@ -27,7 +27,8 @@ const Obr2 = () => {
             <motion.h1
             animate ={{y: hoverState ? 0 : 20}}
             transition={{duration: 0.15}}
-            >Дошкольники и <br/>младшая школа
+            >
+              Дошкольники и <br/>младшая школа
             </motion.h1>
             <motion.div
             transition={{duration: 0.15}}
@@ -38,7 +39,7 @@ const Obr2 = () => {
               </Button>
             </motion.div>
           </div>
-          <img src={card1} alt='' id="img_card_1"/>
+          <motion.img src={card1} alt='' id="img_card_1"/>
         </motion.div>
         <motion.div id="Obr2_card_2"
         onHoverStart={() => {
